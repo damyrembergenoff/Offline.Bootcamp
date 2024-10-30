@@ -20,6 +20,7 @@ static async Task StartEncodingAsync(
 {
 
     await AnsiConsole.Progress()
+    
         .AutoClear(false)
         .Columns([
             new TaskDescriptionColumn(),
@@ -185,3 +186,4 @@ static bool ValidatePath(string path, out IEnumerable<string> files)
 static bool IsMp4File(string path)
     => File.Exists(path)
     && string.Equals(Path.GetExtension(path), ".mp4", StringComparison.OrdinalIgnoreCase);
+    
