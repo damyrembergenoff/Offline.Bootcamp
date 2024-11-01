@@ -6,7 +6,7 @@ while (int.TryParse(Console.ReadLine(), out var n))
     var _ = FindNthFibonacci(n, cts.Token);
 }
 
-await cts.CancelAsync();
+cts.Cancel();
 
 Console.WriteLine("Dastur tugadi!");
 Console.ReadKey();
