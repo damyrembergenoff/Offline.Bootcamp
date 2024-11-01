@@ -31,9 +31,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10", "Day10\Day10.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyClips", "TinyClips\TinyClips.csproj", "{EC58F97C-1D33-4EC3-93BF-C1981DC83F7D}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practise", "Practise\Practise.csproj", "{52B5A6A3-3159-413F-91EE-835AC3C33F15}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day13", "Day13\Day13.csproj", "{FD5FB951-D492-4305-AE44-3D65FF41CAC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day14", "Day14\Day14.csproj", "{FBB3A509-02E6-4374-8360-D8CE3B279BF4}"
+>>>>>>> ff9f04bd5bdee39a4c3e3f1a8ce33e8d70d84bf5
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
